@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700');
+
+$f-default: 'Helvetica', 'Roboto', sans-serif, '-apple-system',
+  'BlinkMacSystemFont', 'Segoe UI', 'Arial';
+
+$em-base: 16; // font base: used to convert px to rem
+
+$font-weight: (
+  fw-thin: 100,
+  fw-extralight: 200,
+  fw-light: 300,
+  fw-normal: 400,
+  fw-medium: 500,
+  fw-semibold: 600,
+  fw-bold: 700,
+  fw-extrabold: 800,
+  fw-black: 900,
+);
+
+$fw-thin: map-get($font-weight, 'fw-thin');
+$fw-extralight: map-get($font-weight, 'fw-extralight');
+$fw-light: map-get($font-weight, 'fw-light');
+$fw-normal: map-get($font-weight, 'fw-normal');
+$fw-medium: map-get($font-weight, 'fw-medium');
+$fw-semibold: map-get($font-weight, 'fw-semibold');
+$fw-bold: map-get($font-weight, 'fw-bold');
+$fw-extrabold: map-get($font-weight, 'fw-extrabold');
+$fw-black: map-get($font-weight, 'fw-black');

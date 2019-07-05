@@ -1,5 +1,6 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
+import '../style/main.scss';
 
 import { Home, About, CharacterDetail, Register, Error404 } from './views/pages';
 

@@ -1,0 +1,9 @@
+$duration: (
+  d-slow: 0.6s,
+  d-normal: 0.4s,
+  d-fast: 0.2s,
+);
+
+$d-slow: map-get($duration, 'd-slow');
+$d-normal: map-get($duration, 'd-normal');
+$d-fast: map-get($duration, 'd-fast');

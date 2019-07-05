@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// html {font-size: 62.5%;}
+
+// body {font-size: 1.6rem;}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px #f5f5f5 inset !important;
+}
+
+html,
+body {
+  font: {
+    family: $f-default;
+    smooth: always;
+  }
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+label {
+  margin: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+$control-border-width: 1px;

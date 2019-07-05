@@ -1,0 +1,28 @@
+.pagination {
+    display: flex;
+
+    &__page-list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__item {
+        a {
+            @include size(rem(35));
+            align-items: center;
+            border: rem(1) solid $c-primary;
+            border-radius: 50%;
+            color: $c-primary;
+            display: flex;
+            justify-content: center;
+            padding: rem(4);
+            text-decoration: none;
+            transition: all .4s;
+            
+            &:hover {
+                background: $c-primary;
+                color: $c-white;
+            }
+        }
+    }
+}
