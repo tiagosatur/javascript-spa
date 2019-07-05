@@ -1,7 +1,7 @@
 import "core-js/stable";
 import "regenerator-runtime/runtime";
 
-import { Home, About, PostShow, Register, Error404 } from './views/pages';
+import { Home, About, CharacterDetail, Register, Error404 } from './views/pages';
 
 import { utils } from './services'
 import { Navbar, Footer } from "./views/components";
@@ -9,7 +9,7 @@ import { Navbar, Footer } from "./views/components";
 const routes = {
     '/'          : Home,
     '/about'     : About,
-    '/p/:id'     : PostShow,
+    '/character/:id'     : CharacterDetail,
     '/register'  : Register,
 };
 

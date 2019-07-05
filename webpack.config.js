@@ -19,7 +19,7 @@ module.exports = {
         //     index: './dist/index.html',
         //   },
         watchContentBase: true,
-        port: 3000,
+        // port: 3000,
     },
     watch: true,
     devtool: 'source-map',

@@ -1,4 +1,4 @@
-import { Home, About, PostShow, Register, Error404 } from '../views/pages';
+import { Home, About, CharacterDetail, Register, Error404 } from '../views/pages';
 
 const utils = {
     parseRequestURL: () => {
@@ -22,7 +22,7 @@ const utils = {
     routes: {
         '/'          : Home,
         '/about'     : About,
-        '/p/:id'     : PostShow,
+        '/character/:id' : CharacterDetail,
         '/register'  : Register,
     },
     onNavItemClick: function (pathName) {
